@@ -16,7 +16,7 @@ function Contact() {
         <div className="contact-info">
           <div className="contact-item">
             <FontAwesomeIcon icon={faEnvelope} />
-            <span>Email: kusumapoosarapu@gmail.com.com</span>
+            <span>Email: kusumapoosarapu@gmail.com</span>
           </div>
           <div className="contact-item">
             <FontAwesomeIcon icon={faPhone} />
