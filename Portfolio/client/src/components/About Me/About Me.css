@@ -1,0 +1,35 @@
+.about-section {
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .about-photo {
+    float: left;
+    margin-right: 10px;
+    width: 400px; /* Set the width of the photo */
+    height: 400px; /* Set the height of the photo */
+    border-radius: 50%; /* Display the photo in an oval shape */
+    overflow: hidden; /* Ensure the image stays within the oval shape */
+  }
+  
+  .about-content {
+    overflow: hidden;
+  }
+  
+  .about-text {
+    margin-top: 0;
+  }
+  
+  .about-text p {
+    margin-bottom: 10px;
+  }
+  
+  .highlight {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .additional-details p {
+    margin: 5px 0;
+  }
+  

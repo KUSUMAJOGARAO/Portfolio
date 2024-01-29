@@ -1,0 +1,54 @@
+/* Project.css */
+
+#projects {
+    padding: 20px;
+  }
+  
+  .project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .project-box {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+  }
+  
+  .project-box img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .project-box-content {
+    padding: 20px;
+  }
+  
+  .project-box-content h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .project-box-content p {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  
+  .project-box-content a {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .project-box-content a:hover {
+    background-color: #0056b3;
+  }
+  

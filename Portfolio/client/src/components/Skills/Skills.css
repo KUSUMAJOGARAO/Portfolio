@@ -1,0 +1,41 @@
+.skills-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Align content vertically */
+    align-items: center; /* Align content horizontally */
+    height: 100vh; /* Set height to 100% of the viewport height */
+    margin: auto; /* Center the container horizontally */
+  }
+  
+  .skills-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px; /* Adjust margin-bottom as needed */
+    text-align: center; 
+    margin-right: 400px;/* Align text horizontally */
+  }
+  
+  .skills-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center; /* Align list items horizontally */
+  }
+  
+  .skill-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-right: 300px;
+  }
+  
+  .skill-image {
+    width: 80px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 20px;
+  }
+  
+  .skill-name {
+    font-size: 16px;
+  }
+  
